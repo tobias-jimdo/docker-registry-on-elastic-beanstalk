@@ -1,0 +1,15 @@
+common:
+  storage: s3
+  s3_access_key: _env:S3_ACCESS_KEY
+  s3_secret_key: _env:S3_SECRET_KEY
+  s3_bucket: _env:S3_BUCKET
+  boto_bucket: _env:S3_BUCKET
+  storage_path: /
+  storage_redirect: true
+  s3_encrypt: false
+  s3_secure: false
+
+  secret_key: _env:SECRET_KEY
+
+  standalone: true
+  disable_token_auth: true
